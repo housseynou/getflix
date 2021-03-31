@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+#barcon li{
+    text-decoration: none;
+    display: inline-block;
+}
+.form-signin{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 15px;
+}
+.text-center{
+    text-align: center !important;
+}
+body .text-center {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.btn-success a{
+    text-decoration: none;
+    color: white;
+}
+.btn-success a:hover{
+    color: rgb(248, 226, 226);
+}
+
