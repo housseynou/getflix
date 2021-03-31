@@ -23,8 +23,8 @@
             <form action="signin.php" method="POST">
                 <h1 class="h3 mb-3 fw-normal">Identifier vous</h1>
                 <div class="form-floating">
-                    <input id="floatingInput" class="form-control" type="email" placeholder="name@example.com" required>
-                    <label for="floatingInput">Adresse Email</label>
+                    <input id="floatingInput" class="form-control" type="name" placeholder="username" required>
+                    <label for="floatingInput">username</label>
                 </div>
                 <div class="form-floating">
                     <input id="floatingPassword" class="form-control" type="password" placeholder="mot de passe" required>
