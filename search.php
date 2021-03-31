@@ -12,7 +12,7 @@ if (isset($_POST['submit'])){
    
     $q = $connection->real_escape_string($_POST['q']);
     //check $q
-    if(!$q) {
+    if(!$q) { 
         die("failed : ".mysqli_connect_error());
     }else{
         
