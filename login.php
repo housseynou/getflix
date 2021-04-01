@@ -28,3 +28,27 @@
         }
     }
     ?>
+
+
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getflix</title>
+</head>
+<body>
+    <form action="commentdb.php" method="POST" class="form-floating">
+        <textarea name="comment" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea"></label>
+        <input type="submit" class="btn btn-primary" value="add"></input>
+    </form>
+    
+    <?php
+    include 'footer.php';
+?>
+</body>
+</html>

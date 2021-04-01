@@ -39,6 +39,11 @@
     </div>
   </div>
 </nav>
+<button class="btn btn-success"><a href="comment.php">Connexion</a></button>
+
+<?php
+    include 'footer.php';
+?>
     
 </body>
 </html>
