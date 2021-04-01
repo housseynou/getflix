@@ -11,7 +11,7 @@ $errors = array();
 
 //Se connecter à la base de données
 
-$db = mysql_connect('localhost', 'root','','','id16485512_getflix') or die("could not connect to the database");
+$db = mysql_connect('localhost', 'root','','','user') or die("could not connect to the database");
 
 //Enregistrer les users
 
@@ -22,11 +22,11 @@ $password_2 = mysql_real_escape_string($db, $POST['password_2']);
 
 //Pour que le formulaire soit correctement remplis
 
-if(empty($username)) {array_push($errors, "Username is required")};
-if(empty($email)) {array_push($errors, "Email is required")};
-if(empty($password_1)) {array_push($errors, "Password is required")};
-if(empty($password_2)) {array_push($errors, "Please confirm you password")};
-if($password_1 !=$password_2) {array_push($errors, "Passwords do not match")};
+if(empty($username)) {array_push($errors, "Username is required");}
+if(empty($email)) {array_push($errors, "Email is required");};
+if(empty($password_1)) {array_push($errors, "Password is required");}
+if(empty($password_2)) {array_push($errors, "Please confirm you password");}
+if($password_1 !=$password_2) {array_push($errors, "Passwords do not match");}
 
 //Vérifier si le user est enregistrer dans la DB
 
@@ -77,6 +77,8 @@ if(isset($_POST['login_user'])) {
         }
         else{
             array_push($errors, "This username doesn't match this password, please try again.");
+                }
+            }
         }
     }
 }
