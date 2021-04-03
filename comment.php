@@ -24,9 +24,9 @@
   <table class="table table-hover">
         <thead>
             <tr>
-                <th scope="col">Pseudo</th>
-                <th scope="col">Commentaire</th>
                 <th scope="col">Date</th>
+                <th scope="col">Pseudo</th>
+                <th scope="col">Commentaire></th>
             </tr>
         </thead>
         
