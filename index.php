@@ -39,7 +39,8 @@
     </div>
   </div>
 </nav>
-<button class="btn btn-success"><a href="comment.php">Connexion</a></button>
+<button class="btn btn-danger"><a href="comment.php">Connexion</a></button>
+<button class="btn btn-warning"><a href="dashboard.php">Connexion</a></button>
 
 <?php
     include 'footer.php';
