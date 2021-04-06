@@ -10,7 +10,7 @@
             echo "<tr>";
             echo "<td>" . $data['id'] . "</td>";
             echo "<td>" . $data['name'] . "</td>";
-            echo '<td><a class="btn btn-danger" href="commentdel.php?id=' . $data['id'] . '" role="button">Delete</a></td>';
+            echo '<td><a class="btn btn-danger" href="dashdelet.php?id=' . $data['id'] . '" role="button">Delete</a></td>';
             echo "</tr>";
         }
 

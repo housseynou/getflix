@@ -24,7 +24,7 @@
             echo "<th scope='row'>" .$data['date_comment'] . "</th>";
             echo "<td>" . $data['name'] . "</td>";
             echo "<td>" . $data['comment'] . "</td>";
-            echo '<td><a class="btn btn-danger" href="commentdel.php?id=' . $data['id'] . '" role="button">Delete</a></td>';
+            echo '<td><a class="btn btn-danger" href="dashdelet.php?id='. $data['id'] . '" role="button">Delete</a></td>';
             echo "</tr>";
         
         
