@@ -4,15 +4,15 @@ $mysqli = new mysqli('localhost','root','','getflix') or die(mysqli_error($mysql
 
 $id = 0;
 $update = false;
-$pseudo = '';
+$username = '';
 $comment= '';
 
 
 //BUTTON SUBMIT
 if (isset($_POST['save'])){
-  $pseudo = $_POST['pseudo'];
+  $username = $_POST['username'];
   $comment = $_POST['comment'];
-  $mysqli->query("INSERT INTO comments (pseudo,comment) VALUES('$pseudo','$comment')") or die($mysqli->error);
+  $mysqli->query("INSERT INTO comments (username,comment) VALUES('$username','$comment')") or die($mysqli->error);
   $_SESSION['message'] = "Your comment has been posted";
   $_SESSION['msg_type'] = "success";
   header("location:comments.php");
@@ -34,17 +34,17 @@ if (isset($_GET['edit'])){
   $result = $mysqli->query("SELECT * FROM comments WHERE id=$id") or die($mysqli->error());
   
   $row = $result->fetch_assoc();
-  $pseudo = $row['pseudo'];
+  $username = $row['username'];
   $comment = $row['comment'];
 
 }
 
 if (isset($_POST['update'])){
   $id = $_POST['id'];
-  $pseudo = $_POST['pseudo'];
+  $username = $_POST['username'];
   $comment = $_POST['comment'];
   
-  $mysqli->query("UPDATE comments SET pseudo='$pseudo',comment='$comment' WHERE id=$id") or die($mysqli->error);
+  $mysqli->query("UPDATE comments SET username='$username',comment='$comment' WHERE id=$id") or die($mysqli->error);
   
   $_SESSION['message'] = "Your comment has been changed";
   $_SESSION['msg_type'] = "warning";

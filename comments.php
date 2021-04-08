@@ -58,8 +58,8 @@
         <form action="actions.php" method="POST">
           <input type="hidden" name="id" value="<?php echo $id; ?>">
           <div class="form-group">
-          <!-- the value of the pseudo should be replaced with the variable $pseudo-->
-            <input type="hidden" class="form-control" name="pseudo" value="Anonymous" placeholder="Enter your pseudo">
+          <!-- the value of the pseudo should be replaced with the variable $username-->
+            <input type="hidden" class="form-control" name="username" value="Anonymous">
           </div>
 
           <div class="form-group">
@@ -96,9 +96,9 @@
   <?php 
     while($row = $result->fetch_assoc()):?>
     <tr>
-      <td><?php echo '<b>' . $row['pseudo'] . '</b>';?></td>
+      <td><?php echo '<b>' . $row['username'] . '</b>';?></td>
       <td><?php echo $row['date_comment'];?></td>
-      <td><?php echo $row['comment'];?></td>
+      <td><?php echo htmlspecialchars($row['comment']);?></td>
       <td>
       <!-- EDIT BUTTON -->
       <a href="comments.php?edit=<?php echo $row['id'];?>" class="btn" name="edit"><i class="fas fa-edit"></i></a>
