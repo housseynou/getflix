@@ -1,4 +1,4 @@
-// Navigateur
+// Navigator
 
 const navToggle = document.querySelector('#toggle-menu');
 const navLink = document.querySelector('.nav-link');
@@ -10,7 +10,7 @@ const menu = () => {
 navToggle.addEventListener('click', menu);
 
 
-// Partie de GetFlix
+// Partie de GetFlix API methode Fetch
 
 
 const APIURL = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1";
@@ -77,3 +77,43 @@ form.addEventListener('submit', (e) => {
       search.value = "";
    }
 });
+
+// login anime
+
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+var modal = document.getElementById('id02');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+// scroleTop
+
+const mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {
+  scrollFunction()
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
