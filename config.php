@@ -2,8 +2,8 @@
 // Informations d'identification
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'tab01');
+define('DB_PASSWORD', 'root');
+define('DB_NAME', 'id16485512_getflix');
  
 // Connexion à la base de données MySQL 
 $mysqli = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
