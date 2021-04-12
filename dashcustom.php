@@ -89,19 +89,13 @@
             <li class="nav-item">
             <a href="dashcustom.php" class="nav-link active">
                 <svg class="bi me-2" width="30" height="30"><use xlink:href="#people-circle"/></svg>
-                Customers
+                Users
             </a>
             </li>
             <li class="nav-item">
             <a href="dashboard.php" class="nav-link text-white">
                 <svg class="bi me-2" width="30" height="30"><use xlink:href="#table"/></svg>
                 Comments
-            </a>
-            </li>
-            <li >
-            <a href="#" class="nav-link text-white" >
-                <svg class="bi me-2" width="30" height="30"><use xlink:href="#speedometer2"/></svg>
-                Films
             </a>
             </li>
             

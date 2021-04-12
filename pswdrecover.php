@@ -18,18 +18,12 @@
             </head>
             
             <body class="text-center">
-                <?php
-                    if(array_key_exists('errors', $_SESSION)): ?>
-                        <div class="alert alert-danger">
-                            <?= inmplode('<br>', $_SESSION['errors']); ?>
-                        </div>
-                    
-                    <?php endif;?>
+                
                 <main class="form-signin">
                     <form  method="POST">
                         <h1 class="h3 mb-3 fw-normal">Récupération de Mot de pass</h1>
                         <div class="form-floating">
-                            <input id="floatingPassword" class="form-control" type="password" name="newpassword" placeholder="mot de passe" required>
+                            <input id="floatingPassword" class="form-control" type="password" name="newpassword" placeholder="nouveau mot de passe" required>
                             <label for="floatingInput">Mot de passe</label>
                         </div>
                         <button class="w-100 btn-lg btn-primary" type="submit">Confirmer</button>
@@ -45,9 +39,9 @@
     if(isset($_POST['newpassword'])){
         $criptedpswd = password_hash($_POST['newpassword'], PASSWORD_DEFAULT);
         $sql = $bdd->prepare('UPDATE users SET password=? WHERE email=?');
-        $sql->execute([$token, $_POST['email']]);
-        echo 'Mail envoyé';
+        $sql->execute([$criptedpswd, $_POST['email']]);
+        echo 'Mot de passe modifié avec succés';
     }else{
-        echo 'Une erreur est survenue';
+        echo 'Une erreur est surven ';
     }
 ?>

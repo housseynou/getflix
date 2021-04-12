@@ -8,21 +8,13 @@
     <meta name="generator" content="Hugo 0.82.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <title>Getflix</title>
-
-    
-
-    
-
     <!-- Bootstrap core CSS -->
-<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-
-
-<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#7952b3">
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
 
 
     <style>
@@ -40,8 +32,6 @@
         }
       }
     </style>
-
-    
     <!-- Custom styles for this template -->
     <link href="sidebars.css" rel="stylesheet">
   </head>
@@ -87,21 +77,15 @@
         <hr>
         <ul class="nav nav-pills flex-column mb-auto">
             <li class="nav-item">
-            <a href="dashcustom.php" class="nav-link active">
+            <a href="dashcustom.php" class="nav-link">
                 <svg class="bi me-2" width="30" height="30"><use xlink:href="#people-circle"/></svg>
-                Customers
+                Users
             </a>
             </li>
             <li class="nav-item">
-            <a href="dashboard.php" class="nav-link text-white">
+            <a href="dashboard.php" class="nav-link text-white active">
                 <svg class="bi me-2" width="30" height="30"><use xlink:href="#table"/></svg>
                 Comments
-            </a>
-            </li>
-            <li >
-            <a href="#" class="nav-link text-white" >
-                <svg class="bi me-2" width="30" height="30"><use xlink:href="#speedometer2"/></svg>
-                Films
             </a>
             </li>
             
@@ -116,7 +100,7 @@
                 <tr>
                     <th scope="col">Date</th>
                     <th scope="col">Pseudo</th>
-                    <th scope="col">Commentaire></th>
+                    <th scope="col">Commentaire</th>
                 </tr>
             </thead>
             

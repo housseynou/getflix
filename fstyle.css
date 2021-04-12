@@ -7,7 +7,7 @@
 }
 body{
     font-family: "Poppins", sans-serif;
-    background-color: #b0b1be;
+    background-color: #393c61;
 
 }
 section{
@@ -15,7 +15,7 @@ section{
     top: 0;
     left: 0;
     width: 100%;
-    background: #373b69;
+    background: #1b1d36;
     z-index: 999;
   
 }
@@ -211,7 +211,7 @@ main{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255,255,255,0.5);
+    background: rgba(133, 130, 130, 0.5);
     color: #fff;
     padding: 2rem;
     transform: translateX(100%);
@@ -221,13 +221,13 @@ main{
 }
 .movie:hover .overview{
     transform: translateX(0);
-    background-color: rgba(255,255,255,0.5);;
+    background-color: rgba(158, 139, 139, 0.5);;
 }
 
 
 
 footer{
-    background: #bbbbc5;
+    background: #1f1f20;
     color: #fff;
     padding: 5px;
     width: 100%;

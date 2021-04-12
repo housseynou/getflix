@@ -51,31 +51,25 @@
     <div class="nav-bar footer">
     <div class="div-footer">
 
-       <div class="div-text">
-         <h2>La mission</h2>
-         <p>Laissez-vous inspirer par Netflix, Amazon Prime Video et autres Popcorn Time, Stremio ... Le but est d'affi
-         les similitudes entre ces plateformes (barre de navigation, en-tête, outil de recherche, différentes catégories de vidéos…)
-          Voyez ce qui est cool et ce qui fonctionne.</p>
-       </div>
-
         <div class="div-list">
-           <h2>Critères d'évaluation</h2>
+           <h2>Les auteurs du site</h2>
            <ul>
-               <li>Une page GitHub publiée est disponible.</li>
-               <li>Le code est bien en retrait et commenté</li>
-               <li>Le readme est propre et complet</li>
-               <li>Le code est bien en retrait et commenté</li>
+               <li>@Thierno</li>
+               <li>@Sagi</li>
+               <li>@Housseynou</li>
+               <li>@Sara</li>
+               <li>@Hugo</li>
            </ul>
        </div>
 
 
         <div class="div-icon">
-         <h2>Voir les icons </h2>
+         <h3>About us on social media</h3>
          <div class="icon">
-          <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
-					<a href="#"><i class="fab fa-instagram"></i>Instagram</a>
-					<a href="#"><i class="fab fa-facebook"></i>Facebook</a>
-					<a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+            <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+            <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
        </div>
        </div>
     

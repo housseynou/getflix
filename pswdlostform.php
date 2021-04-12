@@ -12,13 +12,6 @@
     </head>
     
     <body class="text-center">
-        <?php
-            if(array_key_exists('errors', $_SESSION)): ?>
-                <div class="alert alert-danger">
-                    <?= inmplode('<br>', $_SESSION['errors']); ?>
-                </div>
-            
-            <?php endif;?>
         <main class="form-signin">
             <form method="POST">
                 <h3 class="h3 mb-3 fw-normal">Entrez votre adresse mail</h3>
