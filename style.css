@@ -1,0 +1,264 @@
+    
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #b0b1be;
+
+}
+ 
+#medium{
+    max-width: 800px;
+    margin: 100px auto;
+    width: 100%;
+}
+.about{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.about-flex{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+}
+.about-area{
+    position: relative;
+} 
+.box-title{
+    text-align: center;
+    color: #fff;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.username{
+    border: none;
+    outline: 0;
+    background: #373b69;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+.email{
+    border: none;
+    outline: 0;
+    background: #373b69;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+.password{
+    border: none;
+    outline: 0;
+    background: #373b69;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+.submit{
+    border: none;
+    outline: 0;
+    background: #22254b;
+    color: #fff;
+    text-align: center;
+    padding: 7px;
+    margin-top: 3px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.cancel{
+    border: none;
+    outline: 0;
+    background: #22254b;
+    color: #fff;
+    text-align: center;
+    padding: 7px;
+    margin-top: 3px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    justify-self: center;
+ 
+}
+.psw a{
+   color: #fff;
+   opacity: 1;
+   cursor: pointer;
+   justify-self: center;
+  margin: 10px;
+}
+.pswi{
+  color: #dfedee;
+  margin: 2px;
+}
+.pswi a{
+    color: #fff;
+}
+.imgcontainer{
+    float: right;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+} 
+
+.modal {
+    display: block; 
+    background: #373b69;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: .85rem;
+    border-radius: 10px;
+    margin: 16px 16px;
+    overflow: auto; 
+    z-index: 1000;
+    background: #373b69;
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+    
+    } 
+
+  .animate {
+   z-index: 100;
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+} 
+
+
+/* accueil */
+
+.sucess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 90vh;
+    color: #fff;
+}
+
+
+.sucess p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 3px;
+}
+.voirA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    color: #fff;
+   
+}
+.sucess h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sucess a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    margin-top: 10px;
+    background: #2b2b38;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    justify-self: center;
+   
+}
+
+/* deconnexion */
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 90vh;
+}
+.content a span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    margin-top: 10px;
+    background: #2b2b38;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    justify-self: center;
+}
+.comment{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 6px;
+}
+
+
+section{
+    position: fixed;
+    top:0;
+    left:0;
+      background-image: url('https://keanet.eu/wp-content/uploads/Building-a-thriving-European-audiovisual-industry-KEA-pic4-1600px.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+  }
+
+
+
