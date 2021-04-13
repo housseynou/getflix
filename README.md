@@ -22,15 +22,14 @@
  * Javascript
  * PHP
 
-
-
-
 ## Members of the group
 * Hugo Contor
 * Sagi
 * Thierno Barry
 * Housseynou Coulibaly
 * Sara Brazuna Tavares Gomes
+
+
 
 
 
