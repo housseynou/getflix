@@ -58,8 +58,8 @@
         <form action="actions.php" method="POST">
           <input type="hidden" name="id" value="<?php echo $id; ?>">
           <div class="form-group">
-          <!-- the value of the pseudo should be replaced with the variable $username-->
-            <input type="hidden" class="form-control" name="username" value="Anonymous">
+          <!-- the value of username should be replaced with the variable $username-->
+            <input type="hidden" class="form-control" name="username" value="<?php echo $username; ?>">
           </div>
 
           <div class="form-group">

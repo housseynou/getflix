@@ -10,11 +10,14 @@ $comment= '';
 
 //BUTTON SUBMIT
 if (isset($_POST['save'])){
-  $username = $_POST['username'];
-  $comment = $_POST['comment'];
-  $mysqli->query("INSERT INTO comments (username,comment) VALUES('$username','$comment')") or die($mysqli->error);
-  $_SESSION['message'] = "Your comment has been posted";
-  $_SESSION['msg_type'] = "success";
+  if(!empty($_POST['comment'])){
+    $username = $_POST['username'];
+    $comment = $_POST['comment'];
+    $mysqli->query("INSERT INTO comments (username,comment) VALUES('$username','$comment')") or die($mysqli->error);
+    $_SESSION['message'] = "Your comment has been posted";
+    $_SESSION['msg_type'] = "success";
+  }
+  
   header("location:comments.php");
 }
 
