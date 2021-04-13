@@ -17,6 +17,10 @@
 
 #### For the administrators, we build a backoffice, but the problem with the different permissions on the site still remains. For the moment, everybody can edit or delete any comment.  
 
+## Our Home Page
+![Print Screen](homepage.png)
+
+
 ## Build with
  * HTML5
  * CSS3
@@ -30,4 +34,7 @@
 * Thierno Barry
 * Housseynou Coulibaly
 * Sara Brazuna Tavares Gomes
+
+## Link to our site
+[GetFlix](https://getflix-get.000webhostapp.com/index.php)
 
